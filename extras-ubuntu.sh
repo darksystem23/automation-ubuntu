@@ -16,13 +16,15 @@ sudo apt-get -y install --install-recommends --install-suggests file-roller p7zi
 sudo apt-get -y install --install-recommends geany geany-plugins libreoffice
 
 # Install Codecs Extras
-sudo apt-get -y install --install-recommends --install-suggests x264 lame twolame flac faac
+sudo apt-get -y install --install-recommends x264 lame twolame flac faac
 
 # Install Video Editor and Extras
 sudo apt-get -y install --install-recommends kdenlive xine vcdimager
 
 # Install VirtualBox and Extras
-sudo apt-get -y install --install-recommends --install-suggests virtualbox dkms build-essential module-assistant linux-headers-$(uname -r) make gcc
+sudo apt-get -y install --install-recommends --install-suggests virtualbox 
+
+sudo apt-get -y install dkms build-essential module-assistant linux-headers-$(uname -r) make gcc
 
 # Install Dictionary and Language Extras
 sudo apt-get -y install --install-recommends libreoffice-help-es libreoffice-l10n-es kde-l10n-es 
