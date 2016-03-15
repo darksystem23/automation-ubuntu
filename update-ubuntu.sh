@@ -11,5 +11,7 @@ sudo apt-get -y dist-upgrade
 
 sudo apt-get -y install -f
 
+sudo apt-get -y autoremove
+
 sudo apt-get -y clean
 
