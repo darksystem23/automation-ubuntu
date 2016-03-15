@@ -35,6 +35,9 @@ sudo apt-get -y install --install-recommends git ruby
 # Services
 sudo apt-get -y install --install-recommends ssh samba system-config-samba
 
+# Parted Tools
+sudo apt-get -y install --install-recommends --install-suggests gparted cryptsetup
+
 # Install Dictionary and Language Extras - Spanish
 sudo apt-get -y install libreoffice-help-es libreoffice-l10n-es kde-l10n-es
 
