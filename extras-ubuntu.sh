@@ -19,7 +19,7 @@ sudo apt-get -y install --install-recommends geany geany-plugins libreoffice
 sudo apt-get -y install --install-recommends x264 lame twolame flac faac
 
 # Install Video Editor and Extras
-sudo apt-get -y install --install-recommends kdenlive xine vcdimager
+sudo apt-get -y install --install-recommends kdenlive xine-plugin vcdimager
 
 # Install VirtualBox and Extras
 sudo apt-get -y install --install-recommends --install-suggests virtualbox 
@@ -27,4 +27,14 @@ sudo apt-get -y install --install-recommends --install-suggests virtualbox
 sudo apt-get -y install dkms build-essential module-assistant linux-headers-$(uname -r) make gcc
 
 # Install Dictionary and Language Extras
-sudo apt-get -y install --install-recommends libreoffice-help-es libreoffice-l10n-es kde-l10n-es 
+sudo apt-get -y install libreoffice-help-es libreoffice-l10n-es kde-l10n-es
+
+sudo apt-get -y install language-pack-es language-pack-gnome-es language-pack-es-base language-pack-gnome-es-base
+
+##END
+
+# Uninstall dependencies that are not in use
+sudo apt-get -y autoremove
+
+# Clean cache apt
+sudo apt-get -y clean
