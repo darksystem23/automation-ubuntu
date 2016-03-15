@@ -26,10 +26,13 @@ sudo apt-get -y install --install-recommends --install-suggests virtualbox
 
 sudo apt-get -y install dkms build-essential module-assistant linux-headers-$(uname -r) make gcc
 
-# Install Dictionary and Language Extras
+# Install Dictionary and Language Extras - Spanish
 sudo apt-get -y install libreoffice-help-es libreoffice-l10n-es kde-l10n-es
 
 sudo apt-get -y install language-pack-es language-pack-gnome-es language-pack-es-base language-pack-gnome-es-base
+
+# Check Language Support Spanish
+check-language-support -l es
 
 ##END
 
