@@ -26,6 +26,15 @@ sudo apt-get -y install --install-recommends --install-suggests virtualbox
 
 sudo apt-get -y install dkms build-essential module-assistant linux-headers-$(uname -r) make gcc
 
+# VLC Player
+sudo apt-get -y install --install-recommends vlc
+
+# Developer Tools
+sudo apt-get -y install --install-recommends git ruby
+
+# Services
+sudo apt-get -y install --install-recommends ssh samba system-config-samba
+
 # Install Dictionary and Language Extras - Spanish
 sudo apt-get -y install libreoffice-help-es libreoffice-l10n-es kde-l10n-es
 
