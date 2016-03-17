@@ -38,6 +38,9 @@ sudo apt-get -y install --install-recommends ssh samba system-config-samba
 # Parted Tools
 sudo apt-get -y install --install-recommends --install-suggests gparted cryptsetup
 
+# Firmware and Drivers Non-Free
+sudo apt-get -y install --install-recommends linux-firmware-nonfree intel-microcode
+
 # Install Dictionary and Language Extras - Spanish
 sudo apt-get -y install libreoffice-help-es libreoffice-l10n-es kde-l10n-es
 
