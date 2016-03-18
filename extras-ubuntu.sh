@@ -29,6 +29,12 @@ sudo apt-get -y install dkms build-essential module-assistant linux-headers-$(un
 # VLC Player
 sudo apt-get -y install --install-recommends vlc
 
+# Emulators Windows and Tools
+sudo apt-get -y install --install-recommends wine playonlinux
+
+# Internet and Tools
+sudo apt-get -y install --install-recommends qbittorrent chromium-browser filezilla
+
 # Developer Tools
 sudo apt-get -y install --install-recommends git ruby
 
